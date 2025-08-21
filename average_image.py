@@ -14,8 +14,4 @@ sum_img = sum_img.astype(np.uint8)
 
 plt.figure("avg image", (10, 5))
 plt.imshow(sum_img, cmap='gray', vmin=0, vmax=255)
-# plt.show()
-
-plt.figure("ori image", (10, 5))
-plt.imshow(imgs[0], cmap='gray')
 plt.show()
